@@ -3,7 +3,7 @@ name: Scorecard supply-chain security
 on:
   branch_protection_rule:
   schedule:
-    - cron: '23 4 * * 1'
+    - cron: '17 4 * * 1'
   push:
     branches:
       - main
