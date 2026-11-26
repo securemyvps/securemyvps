@@ -6,7 +6,9 @@ import (
 	"os"
 )
 
-const version = "0.0.0-dev"
+// version is the release version. The release workflow replaces it at build
+// time with -ldflags "-X main.version=<version>".
+var version = "0.0.0-dev"
 
 func main() {
 	showVersion := flag.Bool("version", false, "print version and exit")
