@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  Linux VPS hardening with lockout-safe rollback.<br>
+  VPS hardening with lockout-safe rollback.<br>
   Go, <code>CGO_ENABLED=0</code> static binaries, no telemetry.
 </p>
 
@@ -28,7 +28,7 @@
 | Audit engine | Not started — imports `github.com/vpsinspect/vpsinspect` once that library ships |
 | CI | Build, test, golangci-lint, govulncheck, zizmor |
 | Supply chain | Reproducible builds, SHA-256 checksums, GitHub build attestations |
-| Platform | Linux only (amd64, arm64) |
+| Platform | Linux now (amd64, arm64); Windows Server planned for Phase 3 |
 
 ## Build (local)
 
